@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com    @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <!-- 
+    	The codes are free, but we require linking to our web site.
+    	Why to Link?
+    	A true story: one girl didn't set a link and had no decent date for two years, and another guy set a link and got a top ranking in Google! 
+    	Where to Put the Link?
+    	home, about, credits... or in a good page that you want
+    	THANK YOU MY FRIEND!
+    -->
+    <title>DC17</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    	body{margin-top:20px;}
+/* =Jumbotron Register
+-------------------------------------------------------------- */
+.jumbotron.jumbotron-register {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    margin:0;
+}
+
+.jumbotron.jumbotron-register a {
+    color: #fff;
+}
+
+.register-form {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.register-form h3 {
+    color: #414141;
+}
+
+.jumbotron.jumbotron-register h1 { 
+    font-size:59px; 
+}
+
+/* =Hello Intro
+-------------------------------------------------------------- */
+#hello-intro h2 {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 4px;
+	display: inline-block;
+}
+
+#hello-intro h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	color: #b0b0b0;
+}
+
+#hello-intro h3 strong {
+	font-weight: 300;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://aliensix.com/particles-1.3/HTML/css/style.css);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background: #6819e8;
+    background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+    background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+    background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );
+}
+    </style>
+</head>
+<body>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<div id="home" class="jumbotron jumbotron-register">
+    	<div id="particles-js"><canvas class="particles-js-canvas-el" width="1409" height="456" style="width: 100%; height: 100%;"></canvas></div><!-- /.particles div -->
+		<div class="container center-vertically-holder">
+			<div class="center-vertically">
+				<div class="col-sm-7 col-lg-6 mt40-xs">
+					<h1 class="mb30 no-margin-top scaleReveal" data-sr-id="45" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s; transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s; ">
+						<strong>OpenShift Container Platform</strong> 
+					</h1>
+					<p class="bottomReveal" data-sr-id="1" style="">OpenShift, based on top of Docker containers and the Kubernetes container cluster manager. OpenShift is a distribution of Kubernetes optimized for enterprise application development and deployment. OpenShift adds developer and operational centric tools on top of Kubernetes to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams and applications. Kubernetes provides many controls that can greatly improve your application security. Configuring them requires intimate knowledge with Kubernetes and the deployment’s security requirements. The best security practices we highlight here are aligned to the container lifecycle: build, ship and run, and are specifically tailored to Kubernetes deployments.</p>
+					<p class="mb30 bottomReveal" data-sr-id="2" style=""></p>
+				</div>
+
+				<div class="col-sm-5 col-lg-5 col-lg-offset-1 mt40-xs">
+					<form role="form" id="register_form" class="register-form mb40-xs">
+                        <h3 class="no-margin-top mb20"></h3>
+                         <div>
+                           <img src="../static/img/openshift.png" alt="" height="100" width="300">
+                         </div>  
+                    </form>
+			    </div><!-- /.column -->
+			</div><!-- /.vertical center -->
+		</div><!-- /.container -->
+	</div>
+
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+particlesJS("particles-js", {
+    "particles": {
+    	"number": {
+			"value": 80,
+			"density": {
+				"enable": true,
+				"value_area": 800
+			}
+		},
+		"color": {
+			"value": "#ffffff"
+		},
+		"shape": {
+			"type": "circle",
+			"stroke": {
+				"width": 0,
+				"color": "#000000"
+			},
+			"polygon": {
+				"nb_sides": 5
+			},
+			"image": {
+				"src": "img/github.svg",
+				"width": 100,
+				"height": 100
+			}
+		},
+		"opacity": {
+			"value": 0.5,
+			"random": false,
+			"anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			}
+		},
+		"size": {
+			"value": 3,
+			"random": true,
+			"anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			}
+		},
+		"line_linked": {
+			"enable": true,
+			"distance": 150,
+			"color": "#ffffff",
+			"opacity": 0.4,
+			"width": 1
+		},
+		"move": {
+			"enable": true,
+			"speed": 6,
+			"direction": "none",
+			"random": false,
+			"straight": false,
+			"out_mode": "out",
+			"bounce": false,
+			"attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			}
+		}
+	},
+	"interactivity": {
+		"detect_on": "canvas",
+		"events": {
+			"onhover": {
+				"enable": true,
+				"mode": "grab"
+			},
+			"onclick": {
+				"enable": true,
+				"mode": "push"
+			},
+			"resize": true
+		},
+		"modes": {
+			"grab": {
+				"distance": 140,
+				"line_linked": {
+					"opacity": 1
+				}
+			},
+			"bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			},
+			"repulse": {
+				"distance": 200,
+				"duration": 0.4
+			},
+			"push": {
+				"particles_nb": 4
+			},
+			"remove": {
+				"particles_nb": 2
+			}
+		}
+	},
+	"retina_detect": true
+});
+</script>
+</body>
+</html>
